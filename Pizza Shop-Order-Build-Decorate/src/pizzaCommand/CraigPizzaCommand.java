@@ -14,6 +14,6 @@ public class CraigPizzaCommand implements PizzaCommand{
     this.order = order;
   }
   public void execute(){
-    order.bakeCraigCrust();
+    order.bakeCraigPizza();
   }
 }
