@@ -31,8 +31,8 @@ deploy:
     secure: $GITPERM
   file:
     - README.md
-    - hello_world_test_reports.tar.gz
-    - hello_world_executable_distributions.tar.gz
+    - Pizza-Shop-Order-Build-Decorator-Reports.tar.gz
+    - Pizza-Shop-Order-Build-Decorator-executables.tar.gz
   skip_cleanup: true
   on:
     tags: false
